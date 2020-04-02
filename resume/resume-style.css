@@ -7,7 +7,7 @@ body {
     justify-content: center;    
 }
 
-h1,p {margin: 0; padding: 0; display: inline-flex; flex-direction: row;}
+h1,p {margin: 0; padding: 0;}
 
 hr {border: 1.5px solid #C5D3EE; width: 100%;}
 
