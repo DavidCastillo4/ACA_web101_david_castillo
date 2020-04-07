@@ -126,7 +126,7 @@ font-size: 20px;
 
 
   /*desktops*/
-  @media (min-width: 901px) {
+  @media (min-width: 1500px) {
     .SectionInnovation {                
         flex-direction: row;
   }
