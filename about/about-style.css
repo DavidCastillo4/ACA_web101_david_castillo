@@ -3,8 +3,10 @@
 .SectionTop {position: relative;}
 
 video {
-    min-height: 100%;
-    min-width: 100%; 
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: -1;
 }
 
 .LogoBox {
