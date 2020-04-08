@@ -43,7 +43,7 @@ video {
     flex-direction: column;  
 }
 
-.AboutTextBox {max-width: 800px; margin: 0px 20px;}
+.AboutTextBox {max-width: 800px;}
 
 .AboutTxt {
     font-family: Arial;  
@@ -51,13 +51,15 @@ video {
     line-height: 30px; 
     text-align: left;  
     font-weight: 600; 
-    padding-bottom: 20px;    
+    padding: 0px 20px 20px 20px;  
+
 }
 
 .AboutP {
     text-align: left;         
     font-family: Arial;          
     line-height: 30px;  
+    padding: 0px 20px;
 }
 
 .Sections {width: 100%;}
