@@ -23,8 +23,6 @@ display: flex;
 height: 100%;
 flex-direction: column;
 justify-content: space-evenly;
-
-
 }
 
 .Mission,.HeadText {
@@ -38,7 +36,7 @@ justify-content: space-evenly;
 .Mission {font-size: 20px;}
 
 .SectionAboutNike {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     padding: 50px 0px;
     display: flex;
@@ -49,7 +47,7 @@ justify-content: space-evenly;
 
 .AboutTextBox {
     max-width: 800px;
-    border: 1px solid blue;    
+    /* border: 1px solid blue;     */
 }
 
 .AboutTxt {
@@ -67,15 +65,14 @@ justify-content: space-evenly;
     line-height: 30px;  
 }
 
-div { border: 1px solid red; }
+/* div { border: 1px solid red; } */
 
-.SectionInnovation {
+.Sections {
     display: flex;
-    width: 100%;
-    /* flex-direction: column; */
+    width: 100%;    
     align-items: center;
     justify-content: center; 
-
+    background-color: #F7F7F7;
 }
 
 
@@ -95,9 +92,9 @@ max-width: 600px;
 }
 
 .Title {
-font-size: 30px;
+font-size: 15px;
 font-family: Arial;
-letter-spacing: 8px;
+letter-spacing: 7px;
 padding-bottom: 40px;
 text-decoration: underline;
 text-decoration-color: red;
@@ -123,7 +120,7 @@ font-size: 20px;
   @media (min-width:1px) {
       .HeadText {font-size: 16px;        
     }
-    .SectionInnovation {                
+    .Sections {                
         flex-direction: column;
         
   }
@@ -135,7 +132,7 @@ font-size: 20px;
       .HeadText {
           font-size: 40px;  
     }
-    .SectionInnovation {                
+    .Sections {                
         flex-direction: row;
         
   }
