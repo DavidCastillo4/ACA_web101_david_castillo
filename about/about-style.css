@@ -72,8 +72,18 @@ justify-content: space-evenly;
     width: 100%;    
     align-items: center;
     justify-content: center; 
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
 }
+
+.bg1 {
+background-color: rgb(245, 243, 243);
+
+}
+
+.bg2 {
+    background-color: rgb(221, 221, 221);
+    
+    }
 
 
 .ImgBox {
@@ -110,8 +120,10 @@ text-decoration-color: red;
 .Text {
 font-family: Calibri;
 font-size: 20px;
-
 }
+
+
+
 
 
 
