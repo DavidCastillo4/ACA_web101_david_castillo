@@ -50,9 +50,10 @@ justify-content: space-evenly;
 }
 
 .AboutTextBox {
-    text-align: left;         
+    /* text-align: left;         
     font-family: Arial;          
-    line-height: 30px;     
+    line-height: 30px;      */
+    font-family: Arial;  
     max-width: 800px;
     border: 1px solid blue;    
 }
@@ -63,7 +64,12 @@ justify-content: space-evenly;
     padding-bottom: 20px;    
 }
 
+.AboutP {
+    text-align: left;         
+    font-family: Arial;          
+    line-height: 30px;  
 
+}
 
 div { border: 1px solid red; }
 
@@ -78,14 +84,10 @@ div { border: 1px solid red; }
 
 
 .ImgBox {
-    /* max-width:100%; 
-    max-height:100%; */
     padding: 80px 20px 20px 20px;
 }
 
 img {
-    /* max-width:100%;     
-    max-height:100%;     */
     position: relative;
     height: auto;
     width: 100%;
