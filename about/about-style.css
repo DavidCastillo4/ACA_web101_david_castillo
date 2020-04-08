@@ -133,7 +133,7 @@ font-size: 20px;
   /*desktops*/
   @media (min-width: 1500px) {
       .HeadText {
-          font-size: 16px;  
+          font-size: 40px;  
     }
     .SectionInnovation {                
         flex-direction: row;
