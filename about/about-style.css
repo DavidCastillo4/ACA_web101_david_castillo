@@ -43,7 +43,7 @@ video {
     flex-direction: column;  
 }
 
-.AboutTextBox {max-width: 800px;}
+.AboutTextBox {max-width: 800px; padding: 0px 20px;}
 
 .AboutTxt {
     font-family: Arial;  
