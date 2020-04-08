@@ -50,16 +50,12 @@ justify-content: space-evenly;
 }
 
 .AboutTextBox {
-    /* text-align: left;         
-    font-family: Arial;          
-    line-height: 30px;      */
-    font-family: Arial;  
     max-width: 800px;
     border: 1px solid blue;    
 }
 
 .AboutTxt {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     padding-bottom: 20px;    
 }
