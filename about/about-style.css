@@ -32,7 +32,7 @@ justify-content: space-around;
     color: white; 
     font-family: Arial; 
     font-weight: 700;
-    line-height: 50px;
+   
 }
 
 .Mission {font-size: 20px;}
@@ -121,7 +121,8 @@ font-size: 20px;
 
   /*Mobile*/
   @media (min-width:1px) {
-      .HeadText {font-size: 16px;}
+      .HeadText {font-size: 16px;        
+    }
     .SectionInnovation {                
         flex-direction: column;
         
@@ -131,7 +132,9 @@ font-size: 20px;
 
   /*desktops*/
   @media (min-width: 1500px) {
-      .HeadText {font-size: 50px;}
+      .HeadText {
+          font-size: 50px;  
+    }
     .SectionInnovation {                
         flex-direction: row;
         
