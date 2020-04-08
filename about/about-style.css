@@ -66,7 +66,9 @@ video {
 
 .bg1 {background-color: rgb(235, 235, 235);}
 .bg2 {background-color: white;}
-.ImgBox {padding: 80px 20px 20px 20px;}
+
+
+.ImgBox {padding: 20px 20px 20px 20px;}
 
 img {
     position: relative;
@@ -118,5 +120,7 @@ font-size: 20px;
     .Sections {                
         flex-direction: row;
   }
+
+  .rev {flex-direction: row-reverse;}
 }
 
