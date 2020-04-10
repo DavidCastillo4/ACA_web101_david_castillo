@@ -102,6 +102,11 @@ textarea {
   width: 90%;  
 }
 
+#map {
+  width: 90%;
+  height: 300px;
+}
+
 }
 
 
@@ -135,6 +140,10 @@ textarea {
     
   }
 
+  #map {
+    width: 500px;
+    height: 300px;
+  }
 
 
 }
