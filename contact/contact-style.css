@@ -1,4 +1,7 @@
 * {margin: 0; padding: 0; font-family: Calibri;}
+html {
+  -webkit-text-size-adjust: none;
+}
 
 label, p {
   font-family: Calibri;
