@@ -86,58 +86,54 @@ button {
 }
 
 
-
-
-
-
-
 @media (min-width: 1px){
+  main {  
+    grid-template-columns: 1fr;  
+    grid-template-areas:   
+    "header"  
+    "contact"  
+    "content";
+  }
 
-main {
-  grid-template-columns: 1fr;
-  grid-template-areas: 
-  "header"
-  "contact"
-  "content";
+  .sectionHeader h2 {  
+    display: block;
+  }
+
+  .sectionHeader h2:nth-child(2) {   
+    visibility: hidden;   
+    height: 15px;
+  }
+
+  textarea {     
+    width: 90%;  
+  }
+
+  #map {    
+    width: 90%;    
+    height: 300px;    
+    margin-bottom: 20px;
+  }
 }
-.sectionHeader h2 {
-  display: block;
-}
-.sectionHeader h2:nth-child(2) { 
-  visibility: hidden; 
-  height: 15px;
-}
-
-textarea {    
-  width: 90%;  
-}
-
-#map {
-  width: 90%;
-  height: 300px;
-  margin-bottom: 20px;
-}
-
-}
 
 
-@media (min-width: 1000px){
-
+@media (min-width: 1000px){  
   main {
+    
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "header header"        
     "contact content";
   }
-
-  .sectionHeader h2 {
-     display: inline;
-    } 
+  
+  .sectionHeader h2 {     
+    display: inline;    
+  }     
     
-    .sectionHeader h2:nth-child(2) {
+  .sectionHeader h2:nth-child(2) {    
     visibility: visible;
     font-size: 30px;
   }
+
   .sectionContact h4 {
     text-align: right;
   }
@@ -146,18 +142,17 @@ textarea {
     border-left: 1px solid lightgray;        
   }
 
-  textarea {    
-    width: 300px;
-    
+  textarea {            
+    width: 300px;    
   }
 
   #map {
     width: 500px;
     height: 300px;
   }
-
-
 }
+
+
 
 
 
