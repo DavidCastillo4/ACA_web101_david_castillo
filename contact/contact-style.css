@@ -49,6 +49,10 @@ main {
   padding: 30px;
 }
 
+#map {
+  margin-bottom: 20px;
+}
+
 #email {  
   visibility: hidden;
 }
@@ -63,7 +67,7 @@ textarea {
   height: 100px;
 }
 
-#Hearabout, #email, input[type="date"] {
+#HearAbout, #email, input[type="date"] {
   width: 220px;
   height: 30px;
 }
@@ -80,6 +84,12 @@ button {
   font-size: 17px;
   transition: all 350ms ease;
 }
+
+
+
+
+
+
 
 @media (min-width: 1px){
 
