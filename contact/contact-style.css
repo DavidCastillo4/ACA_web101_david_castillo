@@ -45,8 +45,7 @@ main {
   padding: 30px;
 }
 
-#email {
-  margin-left: 20px;
+#email {  
   visibility: hidden;
 }
 
@@ -59,6 +58,12 @@ textarea {
   margin-top: 70px;  
   height: 100px;
 }
+
+#Hearabout, #email, input[type="date"] {
+  width: 220px;
+  height: 30px;
+}
+
 
 button {
   margin-top: 20px;
