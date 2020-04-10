@@ -55,7 +55,8 @@ main {
 }
 
 textarea {
-  margin-top: 70px;
+  margin-top: 70px;  
+  height: 100px;
 }
 
 button {
@@ -87,10 +88,14 @@ main {
   height: 15px;
 }
 
+textarea {    
+  width: 90%;  
+}
+
 }
 
 
-@media (min-width: 677px){
+@media (min-width: 1000px){
 
   main {
     grid-template-columns: 1fr 1fr;
@@ -114,6 +119,12 @@ main {
   .sectionContent {  
     border-left: 1px solid lightgray;        
   }
+
+  textarea {    
+    width: 300px;
+    
+  }
+
 
 
 }
