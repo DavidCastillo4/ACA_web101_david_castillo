@@ -18,6 +18,11 @@ main {
   width: 100%;  
 }
 
+[ct] {  
+animation-delay: 1s;
+animation-iteration-count: 1;
+}
+
 .sectionHeader {  
   grid-area: header;    
   background-color: #172f55;       
@@ -26,10 +31,12 @@ main {
   margin-bottom: 40px;    
 }
 
+
+
 .sectionHeader h2 {
   color: white;        
   letter-spacing: 5px; 
-  vertical-align: top;    
+  vertical-align: top;  
 }
 
 .sectionHeader h2:nth-child(2) { 
